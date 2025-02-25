@@ -17,4 +17,4 @@ class Ship():
 
     def blitme(self):
         """put ship at the pre-determined location"""
-        self.screen., blit(self.image, self, rect)
+        self.screen.blit(self.image, self.rect)
